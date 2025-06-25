@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, send_file
-from parser.resume_parser import extract_resume_text
+from backend.parser.resume_parser import extract_resume_text  
 from parser.job_parser import extract_jd_text
 from analyzer.skill_matcher import match_skills_and_score, explain_score
 from analyzer.suggester import generate_suggestions
