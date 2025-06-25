@@ -1,0 +1,14 @@
+# requirements.txt
+# Backend + Streamlit dependencies for HireSight
+
+flask
+flask-cors
+spacy
+PyMuPDF
+scikit-learn
+fpdf
+requests
+streamlit
+
+# Optional: language model for spaCy
+# python -m spacy download en_core_web_sm
