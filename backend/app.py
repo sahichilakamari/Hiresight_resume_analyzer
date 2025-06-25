@@ -1,9 +1,9 @@
 from flask import Flask, request, jsonify, send_file
 from backend.parser.resume_parser import extract_resume_text  
-from parser.job_parser import extract_jd_text
-from analyzer.skill_matcher import match_skills_and_score, explain_score
-from analyzer.suggester import generate_suggestions
-from utils.report_generator import generate_pdf_report
+from backend.parser.job_parser import extract_jd_text
+from backend.analyzer.skill_matcher import match_skills_and_score, explain_score
+from backend.analyzer.suggester import generate_suggestions
+from backend.utils.report_generator import generate_pdf_report
 from flask_cors import CORS
 import tempfile
 
