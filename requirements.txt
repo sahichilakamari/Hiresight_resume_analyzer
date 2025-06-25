@@ -9,6 +9,7 @@ scikit-learn
 fpdf
 requests
 streamlit
+gunicorn
 
 # Optional: language model for spaCy
 # python -m spacy download en_core_web_sm
